@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录</title>
+<style>
+/*body {font: 12px/1.231 SimSun, arial, helvetica, clean, sans-serif;}*/
+body { font-size: 14px; color: #333; font-family: "微软雅黑"; min-width:1000px;}
+li { list-style:none; }
+
+
+.y_navbox{width: 1000px; height:80px; margin: 0 auto;}
+.y_logo{height: 60px; float: left;}
+.y_logo img{height: 100%;width:auto;margin:10px;}
+.y_navul{float: right;position:relative;}
+
+.y_navul>li{ float:left; margin-left: 32px; padding: 25px 0 17px; width: 98px; font-size: 18px; text-align: center; }
+.y_navul>li>a{ color: #000; display: block; height: 38px; line-height: 38px; border-radius: 5px;text-decoration:none;}
+.y_navul>li>a:hover,.y_navul>li .shouye{ background:#CD3232; color: #fff;}
+
+.s_navop{position: fixed; top:110px; left: 0; width: 100%; display:none;}
+.s_navopbg{height: 48px; background:#666;}
+.s_navchildren{ position: absolute; display:none; height: 48px; line-height: 60px; top:80px; left:50%;color: #fff;font-size: 14px;}
+.s_navchildren a{margin:0 10px; color: #fff;text-decoration: none;}
+.s_navchildren a:hover{
+	text-decoration: underline;
+}
+</style>
+<script type="text/javascript" src="jquery-1.7.2.js"></script>
+<script type="text/javascript" src="yycommonn.js"></script>
+
+
+</head>
+
+<body>
+	<div class="y_navbox clearfix">
+		<div class="y_logo"><a href="#"><img src="logo.jpg" width="200" height="150" /></a></div>
+		<ul class="y_navul">
+			<li class="shouye"><a href="#">首页</a></li>
+			<li>
+				<a href="#" title="" target="">人文旅游</a>
+				<div class="s_navop">
+					<div class="s_navopbg"></div>
+				</div>
+				<div class="s_navchildren">
+					<a href="#">古代人文</a>
+					<a href="#">近代人文</a>
+					<a href="#">现代人文</a>
+				</div>
+			</li>
+			<li>
+				<a class="clicked" href="#" title="" target="">自然旅游</a>
+				<div class="s_navop">
+					<div class="s_navopbg"></div>
+				</div>
+				<div class="s_navchildren">
+					<a href="#">游览观光</a>
+					<a href="#">休息疗养</a>
+					<a href="#">娱乐体育</a>
+				</div>
+			</li>
+			
+			<li>
+				<a href="#" title="" target="">新手指引</a>
+				
+			</li>
+			<li>
+				<a href="#" title="" target="">关于我们</a>
+				<div class="s_navop">
+					<div class="s_navopbg"></div>
+				</div>
+				<div class="s_navchildren">
+					<a href="#">管理团队</a>
+					<a href="#">最新动态</a>
+					<a href="#">招贤纳士</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
